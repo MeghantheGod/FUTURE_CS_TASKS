@@ -1,0 +1,87 @@
+body {
+    font-family: "Courier New", monospace;
+    background-color: #000;
+    color: #00FF00;
+    padding: 20px;
+}
+
+.terminal-header {
+    background-color: #111;
+    color: #00ff00;
+    padding: 10px;
+    border: 1px solid #00ff00;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+h1, h2 {
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00;
+    margin-top: 20px;
+}
+
+form {
+    background-color: #111;
+    border: 1px solid #00FF00;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+input[type="file"] {
+    background-color: #000;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #000;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00FF00;
+    color: #000;
+}
+
+a {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.console {
+    background-color: #000;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+    border: 1px solid #00ff00;
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+.console p {
+    margin: 0;
+    font-size: 14px;
+}
